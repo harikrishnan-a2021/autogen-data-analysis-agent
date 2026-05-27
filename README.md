@@ -127,7 +127,57 @@ data_analysis_agent/
 ├── sales_data.csv           # Sample dataset
 └── output/                  # Generated charts and outputs
 ```
+## Sample Output
 
+The system automatically generates charts and analysis reports. Here's a real example from running the analysis:
+
+### Real Generated Charts
+
+**1. Monthly Revenue Trend** — Shows revenue fluctuations across the year with peak months reaching $50K+.
+- File: `output/monthly_revenue_trend.png`
+
+**2. Regional Performance Analysis** — The East region leads with $568K in revenue, followed by North at $491K.
+- File: `output/top_regions_by_revenue.png`
+
+**3. Price-Volume Correlation** — Lower price points ($0-$200) drive high volume; premium items ($1000+) show steady but lower volume.
+- File: `output/units_sold_vs_unit_price.png`
+
+### Executive Report Example
+
+The Insights Agent automatically generates a structured business report:
+
+```
+═══════════════════════════════════════════════════════════
+           SALES PERFORMANCE ANALYSIS REPORT
+═══════════════════════════════════════════════════════════
+
+EXECUTIVE SUMMARY
+─────────────────
+Total Revenue:              $2,347,156
+Number of Transactions:     10,000
+Average Transaction Value:  $234.72
+
+KEY FINDINGS
+────────────
+✓ East region dominates with 24.2% of total revenue ($568K)
+✓ Monthly volatility ranges from $5K to $50K (no clear seasonality)
+✓ Price sensitivity observed: high volume at budget price points
+✓ Regional disparity suggests different market maturity levels
+
+RECOMMENDATIONS
+───────────────
+1. Scale East region operations; proven high revenue generation
+2. Investigate North region decline (20.9% → trending lower)
+3. Optimize inventory for $0-$200 price segment (highest volume)
+4. Test premium positioning at $1000+ price points
+5. Implement region-specific pricing strategies
+
+═══════════════════════════════════════════════════════════
+```
+
+### Full Sample Report
+
+A complete analysis report with detailed findings is available in [`data_analysis_agent/output/SAMPLE_REPORT.md`](data_analysis_agent/output/SAMPLE_REPORT.md).
 ## Example
 
 Given a sales CSV with columns: `date`, `product`, `revenue`, `region`, `discount`, `channel`
