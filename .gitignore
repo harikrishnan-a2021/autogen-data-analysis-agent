@@ -38,6 +38,8 @@ wheels/
 
 # Project-specific
 output/
+!output/SAMPLE_REPORT.md
+!output/.gitkeep
 *.csv
 *.xlsx
 uploaded_*.csv
