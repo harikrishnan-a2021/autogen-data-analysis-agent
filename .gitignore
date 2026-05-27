@@ -39,6 +39,7 @@ wheels/
 # Project-specific
 output/
 !output/SAMPLE_REPORT.md
+!output/*.png
 !output/.gitkeep
 *.csv
 *.xlsx

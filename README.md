@@ -133,14 +133,23 @@ The system automatically generates charts and analysis reports. Here's a real ex
 
 ### Real Generated Charts
 
-**1. Monthly Revenue Trend** — Shows revenue fluctuations across the year with peak months reaching $50K+.
-- File: `output/monthly_revenue_trend.png`
+**1. Monthly Revenue Trend**
 
-**2. Regional Performance Analysis** — The East region leads with $568K in revenue, followed by North at $491K.
-- File: `output/top_regions_by_revenue.png`
+Shows revenue fluctuations across the year with peak months reaching $50K+.
 
-**3. Price-Volume Correlation** — Lower price points ($0-$200) drive high volume; premium items ($1000+) show steady but lower volume.
-- File: `output/units_sold_vs_unit_price.png`
+![Monthly Revenue Trend](data_analysis_agent/output/monthly_revenue_trend.png)
+
+**2. Regional Performance Analysis**
+
+The East region leads with $568K in revenue, followed by North at $491K.
+
+![Regional Performance Analysis](data_analysis_agent/output/top_regions_by_revenue.png)
+
+**3. Price-Volume Correlation**
+
+Lower price points ($0-$200) drive high volume; premium items ($1000+) show steady but lower volume.
+
+![Price-Volume Correlation](data_analysis_agent/output/units_sold_vs_unit_price.png)
 
 ### Executive Report Example
 
